@@ -1,0 +1,264 @@
+/*img{
+	width:100%;
+	height:100%;
+}*/
+html
+{
+	height:100%;
+}
+body
+{
+	height:100%;
+}
+div
+{
+	height:100%;
+}
+/*.bging
+{
+	width: 100%;
+	height: 100%;
+}*/
+#page1
+{
+	background: url(../img/halloween1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	
+	
+}
+#tittle
+{
+	position:fixed;
+	top:50px;
+	left:300px;
+	animation: mymove01 5s;
+	
+}
+#box
+{
+	position:fixed;
+	bottom:250px;
+	left:300px;
+	animation: mymove02 3s infinite;
+}
+@keyframes mymove02{
+	from{
+		left: 300px;
+	}
+	to{
+		left: 320px;
+	}
+}
+#page2
+{
+	background: url(../img/halloween2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display:none;
+}
+#pumpkin
+{
+	position:fixed;
+	top:50px;
+	left:280px;
+}	
+#startgame
+{
+    position:fixed;
+    bottom:250px;
+    left:380px;
+}
+#page3
+{
+	background: url(../img/halloweenMain.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display:none;
+
+	
+	
+}
+
+#charm1
+{
+	position:fixed;
+	left:50px;
+	top:100px;
+	animation: move3 5s infinite;
+}
+@keyframes move3{
+	0%{
+		left: 50px;
+		top: 100px;
+		}
+	30%{
+		left: 50px;
+		top: 200px;
+		}
+	60%{
+		left: 100px;
+		top: 150px;
+	}
+	100%{
+		left: 50px;
+		top: 100px;
+	}
+	
+}
+#charm2
+{
+	position:fixed;
+	left: 250px;
+	top:400px;
+	animation: move4 10s infinite;
+}
+@keyframes move4{
+	0%{
+		left:250px;
+		top: 400px;
+	}
+	30%{
+		left: 300px;
+		top: 450px;
+	}
+	60%{
+		left: 350px;
+		top: 450px;
+	}
+	100%{
+		left: 250px;
+		top: 400px;
+	}
+}
+#charm3
+{
+	position: fixed;
+	left:50px;
+	top: 650px;
+	animation: move5 15s infinite;
+	
+}
+@keyframes move5{
+	0%{
+		left: 50px;
+		top: 650px;
+	}
+	50%{
+		left: 500px;
+		top: 750px;
+	}
+	100%{
+		left: 50px;
+		top: 650px;
+	}
+	
+}
+#charm4
+{
+	position: fixed;
+	left: 500px;
+	top: 50px;
+	animation: move6 10s infinite;
+	
+}
+@keyframes move6{
+	0%{
+		left: 500px;
+		top: 50px;
+	}
+	10%{
+		left: 650px;
+		top: 100px;
+	}
+	50%{
+		left: 650px;
+		top: 650px;
+	}
+	90%{
+		left: 650px;
+		top: 100px;
+	}
+	100%{
+		left: 500px;
+		top: 50px;
+	}
+}
+#charm5
+{
+	position: fixed;
+	left: 400px;
+	top: 900px;
+	animation: move7 3s infinite;
+	
+}
+@keyframes move7{
+	0%{
+		left: 400px;
+		top: 900px;
+	}
+	50%{
+		left: 400px;
+		top: 950px;
+	}
+	100%{
+		left: 400px;
+		top: 900px;
+	}
+	
+}
+#charm6
+{
+	position: fixed;
+	left: 300px;
+	top: 800px;
+	animation: move8 6s infinite;
+	
+}
+@keyframes move8{
+	0%{
+		left: 300px;
+		top: 800px;
+	}
+	50%{
+		left: 300px;
+		top: 1200px;
+	}
+	100%{
+		left: 300px;
+		top: 800px;
+	}
+}
+#charm7
+{
+	position: fixed;
+	right: 50px;
+	bottom: 300px;
+	animation: move9 3s infinite;
+}
+@keyframes move9{
+	0%{
+		width: 100px;
+		height: 100px;
+	}
+	100%{
+		width: 20px;
+		height: 20px;
+	}
+}
+#page4
+{
+	background: url(../img/charm5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display:none;
+}
+@keyframes mymove01{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
